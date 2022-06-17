@@ -1,0 +1,47 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  padding: 0 50px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+article {
+  max-width: 50%;
+  float: right;
+  margin-bottom: 50px;
+  background: #333;
+  color: #fff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+  display: flex;
+  gap: 50px;
+  text-align: justify;
+  background: #333;
+  color: #fff;
+  margin: 0 -50px;
+  padding: 50px;
+
+  > * {
+    flex: 1;
+  }
+}
